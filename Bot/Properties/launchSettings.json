@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Bot": {
+      "commandName": "Project",
+      "commandLineArgs": "1796faf65e7cc51bdd86799f209642802b92a1b378791597da104b06b0fc0031974a2a115dc4678ffc5fc"
+    }
+  }
+}
