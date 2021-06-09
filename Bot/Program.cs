@@ -92,6 +92,7 @@ namespace Bot
                 "воскресенье" => _list[6].Message,
                 "сегодня" => _list[GetDayNum(DateTime.Now)].Message,
                 "завтра" => _list[GetDayNum(DateTime.Now.AddDays(1))].Message,
+                "вчера" => _list[GetDayNum(DateTime.Now.AddDays(-1))].Message,
                 _ => "Нет такого дня"
             };
             return result.Replace("\\n", "\n");
